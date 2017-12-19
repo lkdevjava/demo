@@ -3,7 +3,7 @@
 	xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="true"
 	monitoring="autodetect" dynamicConfig="true">
 
-	<diskStore path="D:/kh/cache" />
+	<diskStore path="D:/demo/cache" />
 
 	<transactionManagerLookup
 		class="net.sf.ehcache.transaction.manager.DefaultTransactionManagerLookup"
