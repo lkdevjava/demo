@@ -5,19 +5,22 @@
     <link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/demo/css/demo.css"/>
 </head>
 <body>
-<div class="login">
+<div class="title">
+    <span class="titletext">健康运动</span>
+</div>
+<div class="loginbox">
     <form action="" method="post" enctype="application/x-www-form-urlencoded">
-        <div>
+        <div class="group">
             <label for="username">用户名</label>
-            <input type="text" name="username" id="username" value="admin"/>
+            <input type="text" name="username" id="username" value="admin" class="inputbox"/>
         </div>
-        <div>
+        <div class="group">
             <label for="password" class="passlabel">密码</label>
-            <input type="password" name="password" id="password" value="1234"/>
+            <input type="password" name="password" id="password" value="1234" class="inputbox"/>
         </div>
-        <div>
-            <input type="submit" id="loginbtn" value="登陆"/>
-            <input type="reset" id="loginreset" value="重置"/>
+        <div class="group">
+            <input type="submit" id="loginbtn" value="登陆" class="button buttonleft"/>
+            <input type="reset" id="loginreset" value="重置" class="button buttonright"/>
         </div>
     </form>
 </div>

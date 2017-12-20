@@ -1,31 +1,89 @@
 body{
+    font-family: "宋体","Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ffeeff;
+    overflow: hidden;
 }
-label{
-    padding: 3px;
-    margin: 3px;
+.title{
+    background: url("../images/titlebg.jpg") no-repeat 0 0;
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 17px;
+    text-align: left;
+    overflow: hidden;
 }
-.login{
-    margin: 0px auto;
-    width: 300px;
+.titletext{
+    font-size: 60px;
+    margin-left: 2.4em;
+    color: #ffffff;
+    opacity: 0.6;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+}
+.loginbox{
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    background-color: #eeeeff;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    opacity: 0.3;
+    filter: alpha(opacity:30);
     text-align: center;
-    border: 1px #ffffff solid;
-    background-color: #ffeeaa;
-    opacity: 0.4;
-    -moz-opacity: 0.4;
-    filter: alpha(Opacity=0.4);
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    box-shadow: 4px 4px 4px #aaaaaa;
 }
 form{
+    display: table-cell;
     margin: 0;
+    width: 400px;
+    height: 300px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 3em;
+}
+.group{
+    height: 3em;
 }
 label{
-    width:40px;
-    padding: 2px;
+    float: left;
+    width: 4em;
+    text-align: right;
+    padding: 5px;
 }
-.passlabel{
-    letter-spacing: 1em;
+.inputbox{
+    border: solid 2px #000000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    outline: none;
+    background-color: #ffeecc;
+    padding: 5px;
+    width: 15em;
+}
+.inputbox:focus{
+    border: solid 2px #ee11ff;
+    outline: none;
+    background-color: #ffee22;
+    padding: 5px;
+}
+.button{
+    outline: none;
+    border: none;
+    padding: 5px 1.8em;
+    background-color: #00aafa;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.buttonleft{
+    margin-right: 1.8em;
+}
+.buttonright{
+    margin-left: 1.8em;
 }
