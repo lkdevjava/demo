@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="say" uri="http://java.sun.com/jsp/jstl/jspformatlib" %>
 <html>
 <head>
     <title>登陆界面</title>
@@ -24,5 +25,6 @@
         </div>
     </form>
 </div>
+${say:say()}
 </body>
 </html>
